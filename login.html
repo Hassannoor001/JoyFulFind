@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  
+  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href=" bootstrap/css/bootstrap.min.css">
+    <script src=" bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body class="bg-light">
+
+  <div class="container mt-5">
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email">
+      </div>
+      <div class="col-md-6">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Enter password">
+      </div>
+      <div class="col-12">
+        <label for="address" class="form-label">Address</label>
+        <input type="text" class="form-control" id="address" placeholder="123 Kamande St">
+      </div>
+      <div class="col-12">
+        <label for="address2" class="form-label">Address 2</label>
+        <input type="text" class="form-control" id="address2" placeholder="House, or floor">
+      </div>
+      <div class="col-md-6">
+        <label for="city" class="form-label">City</label>
+        <input type="text" class="form-control" id="city">
+      </div>
+      <div class="col-md-4">
+        <label for="state" class="form-label">State</label>
+        <select id="state" class="form-select">
+          <option selected disabled>Choose...</option>
+          <option>California</option>
+          <option>Texas</option>
+          <option>Florida</option>
+          <option>New York</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="zip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="zip">
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="check" type="checkbox" id="check">
+          <label class="form-check-label" for="check">
+            Check me out
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-outline-primary">Sign in</button>
+      </div>
+    </form>
+  </div>
+  
+</body>
+</html>
